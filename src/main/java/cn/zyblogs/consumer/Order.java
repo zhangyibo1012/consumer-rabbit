@@ -1,4 +1,4 @@
-package cn.zyblogs.entity;
+package cn.zyblogs.consumer;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @Title: Order.java
- * @Package cn.zyblogs.entity
+ * @Package cn.zyblogs.consumer
  * @Description: TODO
  * @Author ZhangYB
  * @Version V1.0
@@ -24,7 +24,8 @@ public class Order implements Serializable {
     private String name;
 
     /**
-     *  存储消息发送的唯一标识
+     * 存储消息发送的唯一标识
      */
     private String messageId;
 }
+
